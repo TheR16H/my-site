@@ -1,7 +1,6 @@
-header {
+html {
     background-color: violet;
 }
-
-nav ul li{
-    
+header {
+    background-image: var(background-image);
 }
