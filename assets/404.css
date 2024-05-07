@@ -4,4 +4,17 @@ html {
 header {
     background-image: var(background-image);
 }
-
+.navbar{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    
+    }
+    
+    .navbar li{
+    list-style: none;
+    }
+    header nav{
+      padding: 1rem;
+      text-align: right;
+    }

@@ -1,6 +1,17 @@
 html {
     background-color: violet;
 }
-header {
-    background-image: var(background-image);
+
+.navbar{
+display:flex;
+gap:1rem;
+justify-content: center;
+}
+
+header nav{
+padding: 1rem;
+text-align: right;
+}
+.navbar li {
+list-style: none;
 }
