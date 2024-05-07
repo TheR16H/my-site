@@ -1,7 +1,7 @@
 # my-site
 
 ## Description 
-This site is just a nexus point of sorts. it is expected to host include information about my background, contact details, and a link to my portfolio amongst other things (probably)
+This site is just a nexus point of sorts. it is expected to host information about my background, contact details, and a link to my portfolio amongst other things (probably)
 
 ## Table of Contents
 
