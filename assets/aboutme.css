@@ -1,17 +1,31 @@
 html {
     background-color: violet;
-}
-
-.navbar{
-display:flex;
-gap:1rem;
-justify-content: center;
-}
-
-header nav{
-padding: 1rem;
-text-align: right;
-}
-.navbar li {
-list-style: none;
-}
+  }
+  
+  
+  #navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* width: 200px; */
+  background-color: rgb(198, 115, 198);
+  border-bottom: 1px solid #555;
+  border: 1px solid #555;
+  }
+  
+  li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  float: right;
+  padding: 14px 16px;
+  text-align: right;
+  
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+  background-color: rgb(0, 255, 0);
+  color: white;
+  }  
