@@ -29,3 +29,24 @@ html {
   background-color: rgb(0, 255, 0);
   color: white;
   }  
+
+  @keyframes typing {
+    0% { width: 0; color: red; }
+    50% { color: blue; }
+    100% { width: 100%; color: black; }
+  }
+
+  @keyframes colorChange {
+    0% {color: red; }
+    25% {color: yellow}
+    50% {color: white}
+    75% {color: blue; }
+    100% {color: black; }
+  }
+  
+  .typing {
+    overflow: hidden;
+    border-right: 1px solid black; /* Cursor effect */
+    white-space: nowrap; /* Keep text in one line */
+    animation: typing 5s steps(67) 1s 1 normal both,  colorChange 5s infinite; /* Adjust duration and steps */
+  }
