@@ -1,5 +1,5 @@
 html {
-    background-color: violet;
+    background-color: rgb(20, 20, 24);
   }
   
   
@@ -30,6 +30,42 @@ html {
   color: white;
   }  
 
+
+  .image img{
+    width:1109px;
+    height: 900px;
+    margin-left: 400px;
+
+  }
+
+  /* body {
+      background-image: url('./images/giphy.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @keyframes typing {
     0% { width: 0; color: red; }
     50% { color: blue; }
@@ -44,9 +80,14 @@ html {
     100% {color: black; }
   }
   
+
   .typing {
     overflow: hidden;
     border-right: 1px solid black; /* Cursor effect */
     white-space: nowrap; /* Keep text in one line */
     animation: typing 5s steps(67) 1s 1 normal both,  colorChange 5s infinite; /* Adjust duration and steps */
+  }
+
+  .typing h2{
+    margin-left: 340px;
   }

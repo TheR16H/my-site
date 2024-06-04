@@ -47,7 +47,7 @@ iframe {
 
 
 .img123 img{
-  width: 65%; /* Set the desired width */
-    height: 55%; /* Set the same height as the width to make it a square */
-    object-fit: congtain; /* Ensure the image covers the square without distortion */
+  width: 100%; /* Set the desired width */
+    height: 1500px; /* Set the same height as the width to make it a square */
+    object-fit: contain; /* Ensure the image covers the square without distortion */
 }
