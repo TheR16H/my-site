@@ -7,16 +7,23 @@ This site is just a nexus point of sorts. it is expected to host information abo
 
 - [Support](#support)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
+- [Acknowledgements](#acknowledgements)
+- [Change Log](#change-log)
 - [License](#license)
 
 ## Support
 
 ## Roadmap
-I plan to gradually add more content to this website overtime.
+I plan to gradually add more content to this overtime. 
 
-## Contributing
+
+## Contributions
 No contributions will be needed for this project but feedback would gladly be accepted.
+
+## Acknowledgements
+
+## Change Log
 
 ## License
 MIT License

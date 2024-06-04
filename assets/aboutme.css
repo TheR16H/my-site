@@ -1,5 +1,6 @@
 html {
     background-color: violet;
+    color: white;
   }
   
   
@@ -29,3 +30,24 @@ html {
   background-color: rgb(0, 255, 0);
   color: white;
   }  
+
+
+  .container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+}
+
+iframe {
+    border-radius: 12px;
+}
+
+
+.img123 img{
+  width: 65%; /* Set the desired width */
+    height: 55%; /* Set the same height as the width to make it a square */
+    object-fit: congtain; /* Ensure the image covers the square without distortion */
+}
