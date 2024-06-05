@@ -1,5 +1,6 @@
 html {
     background-color: rgb(20, 20, 24);
+    color: white;
   }
   
   
@@ -32,9 +33,9 @@ html {
 
 
   .image img{
-    width:1109px;
+    width:109%;
     height: 900px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
 
   }
 
@@ -89,5 +90,5 @@ html {
   }
 
   .typing h2{
-    margin-left: 340px;
+    margin-left: 400px;
   }
