@@ -34,6 +34,73 @@ background-color: rgb(0, 255, 0);
 color: white;
 }  
 
+
+/* button */
+body {
+  transition: background-color 0.5s;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.LDB {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  color: #333333; /* Set a color for the button text */
+  animation: wave 2s infinite;
+}
+
+button#theme-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button#theme-toggle.sun {
+  background-image: url('sun-icon.png'); /* Add sun icon image path */
+  background-size: cover;
+}
+
+button#theme-toggle.moon {
+  background-image: url(''); /* Add moon icon image path */
+  background-size: cover;
+}
+
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+@keyframes wave {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+/* button */
+
+
+
 @media only screen and (max-width: 1200px) {
   .container {
       flex-direction: column; /* Stack elements vertically on smaller screens */
@@ -43,4 +110,5 @@ color: white;
       width: 100%; /* Make each element take up the full width on smaller screens */
   }
 }
+
 
