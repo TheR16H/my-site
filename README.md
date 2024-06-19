@@ -5,25 +5,24 @@ This site is just a nexus point of sorts. it is expected to host information abo
 
 ## Table of Contents
 
+- [Usage](#usage)
 - [Support](#support)
 - [Roadmap](#roadmap)
 - [Contributions](#contributions)
 - [Acknowledgements](#acknowledgements)
-- [Change Log](#change-log)
 - [License](#license)
 
-## Support
+## Usage
 
+## Support
+Find on [Github](https://github.com/TheR16H) if you have any questions!
 ## Roadmap
 I plan to gradually add more content to this overtime. 
-
 
 ## Contributions
 No contributions will be needed for this project but feedback would gladly be accepted.
 
 ## Acknowledgements
-
-## Change Log
 
 ## License
 MIT License
