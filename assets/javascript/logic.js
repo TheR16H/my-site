@@ -5,12 +5,7 @@ const body = document.body;
 const savedTheme = localStorage.getItem('theme');
 body.classList.toggle(savedTheme || 'light');
 
-themeToggle.addEventListener('click', () => {
-  body.classList.toggle('dark');
-
-  // Save the user's theme preference in localStorage
-  localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
-});
+// Set initial icon based on the theme
 themeToggle.classList.toggle(savedTheme === 'dark' ? 'moon' : 'sun');
 
 themeToggle.addEventListener('click', () => {
@@ -22,3 +17,4 @@ themeToggle.addEventListener('click', () => {
 
   // Save the user's theme preference in localStorage
   localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+});

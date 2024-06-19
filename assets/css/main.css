@@ -58,25 +58,31 @@ button {
   background-color: #ffffff;
   color: #333333; /* Set a color for the button text */
   animation: wave 2s infinite;
+  margin-left: 98%;
 }
+
+
 
 button#theme-toggle {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: transparent; /* Set background color to transparent */
   cursor: pointer;
   border: none;
   outline: none;
+  background-image: url('https://raw.githubusercontent.com/TheR16H/my-site/main/assets/images/sun.png'); /* Add sun icon image path */
+  background-size: cover;
+  background-position: center; /* Center the background image */
 }
 
 button#theme-toggle.sun {
-  background-image: url('sun-icon.png'); /* Add sun icon image path */
+  background-image: url('https://raw.githubusercontent.com/TheR16H/my-site/main/assets/images/sun.png'); /* Add sun icon image path */
   background-size: cover;
 }
 
 button#theme-toggle.moon {
-  background-image: url(''); /* Add moon icon image path */
+  background-image: url('https://raw.githubusercontent.com/TheR16H/my-site/main/assets/images/moon.png'); /* Add moon icon image path */
   background-size: cover;
 }
 
