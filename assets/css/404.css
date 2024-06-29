@@ -9,7 +9,6 @@ html {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* width: 200px; */
   background-color: rgb(198, 115, 198);
   border-bottom: 1px solid #555;
   border: 1px solid #555;
@@ -35,8 +34,6 @@ html {
   .image img{
     width:109%;
     height: 900px;
-    /* margin-left: 400px; */
-
   }
 
   /* body {
