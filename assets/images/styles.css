@@ -1,0 +1,233 @@
+html{ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header { 
+  color: purple;   
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap:nowrap;
+  text-align: center;
+}
+
+.logo {
+  width:8%;
+  height:8%;
+ align-items: start;
+}
+
+header h1 {
+/* margin left:px; */
+padding-right: 50%;
+}
+
+.banner img{
+  width: 100%;
+  height:10%;
+  overflow: hidden;
+  } 
+
+  #banner {
+    position: relative;
+  }
+
+h2{
+  position: absolute;
+  text-decoration: underline;
+  top:80%;
+  left:65%;
+  /* transform: translate(-50%, -50%);   */
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h2:hover {
+  background-color: purple;
+}
+
+
+  .works-wrapper{
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  align-items: center;
+
+  }
+
+  .work-heading{
+      max-width:8rem;
+
+  }
+
+.left1{
+  border-left:3px solid black;
+  padding:5rem;
+
+}
+
+.big-image{
+max-width:80rem;
+min-width:40rem;
+position:relative;
+z-index: 1;
+}
+.left1 .caption{
+  position: absolute;
+ top:70%;
+ /* color: ; */
+ background-color: yellow;
+ z-index: 2;
+ padding:.5rem;
+ border-top-right-radius:5px;
+ border-bottom-right-radius: 5px;
+}
+
+main article, article{
+   display: flex;
+  /*flex-wrap: wrap;
+  flex-grow: 1; */
+  columns: 2;
+  widows: 2;
+  justify-content: space-between;
+  
+
+}
+
+
+.page-section > h1 {
+  border-right: 3px solid black;
+  padding:5rem;
+  text-align: left;
+  align-items: stretch
+
+}
+
+.button {
+  display: inline-block;
+  padding: 1px 0px;
+  font-size: medium;
+  /* background-color: blue; */
+  color: black;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color:purple ;
+  color:black;
+}
+
+
+.navbar{
+display:flex;
+gap:1rem;
+justify-content: center;
+
+}
+
+.navbar li{
+list-style: none;
+}
+header nav{
+  padding: 1rem;
+  text-align: right;
+}
+
+section ul{
+  font-family: cursive;
+  
+
+}
+
+
+.works1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+.small-image, .small-image2, .small-image3, .small-image4 {
+  position: relative;
+  width: 40%; 
+  margin-left: 5%;
+  height: 20%;
+}
+
+.caption2, .caption3, .caption4, .caption5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.caption2:hover, .caption3:hover, .caption4:hover, .caption5:hover {
+  background-color: purple; /* Change background color on hover */
+  color: black; 
+}
+
+img{
+  width:100%;
+
+}
+
+footer td{
+  color:blue;
+  text-decoration: underline;
+}
+
+.page-section {    
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 2rem;
+ 
+  
+}
+
+@media screen  and (max-width:900px) {
+.page-section {
+  flex-direction: column;
+}
+.work-heading {
+  text-align: center;
+}
+  
+.left1 {
+  border-left:none;
+  border-top:3px solid black;
+}
+}
+
+html {
+background-color: skyblue;
+}
+
+
+.contact-buttons {
+  display: flex;
+}
+
+.contact-button {
+  margin-right: 200px; /* Adjust spacing between buttons */
+  padding: 5px 10px;
+  color: black; /* Button text color */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Display buttons inline */
+}
+
+.contact-button:hover {
+  background-color: purple; /* Change background color on hover */
+}
