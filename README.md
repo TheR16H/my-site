@@ -20,7 +20,10 @@ This site is just a nexus point of sorts. it is expected to host information abo
 Find on [Github](https://github.com/TheR16H) if you have any questions or to see any of my other works!
 
 ## Roadmap
-I plan to gradually add more content to this overtime. 
+Upcoming 
+- improvements to the UX / UI
+- "works" tab / a direct link to the portfolio 
+- and more.
 
 ## Contributions
 No contributions will be needed for this project but feedback would gladly be accepted.
