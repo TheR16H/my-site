@@ -9,7 +9,7 @@ This site is just a nexus point of sorts. it is expected to host information abo
 - [Support](#support)
 - [Roadmap](#roadmap)
 - [Contributions](#contributions)
-- [Languages](#languages)
+- [Technologies](#technologies)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
@@ -23,8 +23,8 @@ I plan to gradually add more content to this overtime.
 ## Contributions
 No contributions will be needed for this project but feedback would gladly be accepted.
 
-## Languages
-The languages currently used on this project so far:
+## Technologies
+This project was built using the following technologies:
 HTML 
 CSS 
 Javascript
