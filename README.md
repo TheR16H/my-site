@@ -23,7 +23,11 @@ I plan to gradually add more content to this overtime.
 ## Contributions
 No contributions will be needed for this project but feedback would gladly be accepted.
 
-## - Languages
+## Languages
+The languages currently used on this project so far:
+HTML 
+CSS 
+Javascript
 
 ## Acknowledgements
 
