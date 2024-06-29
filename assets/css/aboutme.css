@@ -4,6 +4,6 @@
 
 .left, .right {
     display: inline-block;
-    width: 50%; /* Adjust the width as needed */
-    vertical-align: top; /* Align the elements at the top */
+    width: 50%; 
+    vertical-align: top; 
 }
