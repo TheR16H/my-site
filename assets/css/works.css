@@ -118,7 +118,7 @@
     
   }
   
-  @media screen  and (max-width:900px) {
+  /* @media screen  and (max-width:900px) {
   .page-section {
     flex-direction: column;
   }
@@ -129,27 +129,6 @@
   .left1 {
     border-left:none;
     border-top:3px solid black;
-  }
-  }
+  } */
   
-  html {
-  background-color: skyblue;
-  }
-  
-  
-  .contact-buttons {
-    display: flex;
-  }
-  
-  .contact-button {
-    margin-right: 200px; /* Adjust spacing between buttons */
-    padding: 5px 10px;
-    color: black; /* Button text color */
-    text-decoration: none; /* Remove underline from links */
-    display: inline-block; /* Display buttons inline */
-  }
-  
-  .contact-button:hover {
-    background-color: purple; /* Change background color on hover */
-  }
   
